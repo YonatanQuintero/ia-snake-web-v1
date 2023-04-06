@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MLM Road Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="roadmap-container">
+      <h1>MLM Road Map</h1>
+      <div class="roadmap-day">
+        <div class="day-number">Day 1</div>
+        <div class="day-description">Sign up</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 2</div>
+        <div class="day-description">Pick your program</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 3</div>
+        <div class="day-description">Join the live training</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 4</div>
+        <div class="day-description">Share MLM info with friends</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 5</div>
+        <div class="day-description">Make first sale</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 6</div>
+        <div class="day-description">Get certified</div>
+      </div>
+      <div class="roadmap-day">
+        <div class="day-number">Day 7</div>
+        <div class="day-description">Start recruiting</div>
+      </div>
+    </div>
+
+    <script>
+      // get all of the road maps day elements
+      const roadmapDays = document.querySelectorAll(".roadmap-day");
+      // loop through them and set individual class for each
+      roadmapDays.forEach((roadmapDay, index) => {
+        roadmapDay.classList.add(`day-${index + 1}`);
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  /* reset css */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* roadmap container */
+  .roadmap-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  /* roadmap heading */
+  .roadmap-container h1 {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* roadmap days */
+  .roadmap-day {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* day number */
+  .day-number {
+    line-height: 1.3;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #005252;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  /* day description */
+  .day-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: #005252;
+    padding: 0px 20px;
+  }
+</style>
