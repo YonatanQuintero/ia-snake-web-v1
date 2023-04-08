@@ -75,6 +75,54 @@
   padding: 80px 0;
 }
 
+.neon-effect {
+  color: #fff;
+  text-shadow: 0 0 10px #9c61b9, 0 0 20px #9c61b9, 0 0 30px #9c61b9,
+    0 0 40px #2e75b6, 0 0 70px #2e75b6, 0 0 80px #2e75b6, 0 0 100px #2e75b6,
+    0 0 150px #2e75b6;
+}
+
+.blue-fire {
+  color: #fff;
+  text-shadow: 0 0 10px #2e75b6, 0 0 20px #2e75b6, 0 0 30px #2e75b6,
+    0 0 40px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff, 0 0 100px #ffffff,
+    0 0 150px #ffffff;
+}
+
+.glitch-effect {
+  color: #fff;
+  text-shadow: 0 0 2px #9c61b9, 0 0 4px #9c61b9, 0 0 6px #9c61b9,
+    0 0 8px #2e75b6, 0 0 12px #2e75b6, 0 0 16px #2e75b6, 0 0 24px #2e75b6,
+    0 0 32px #2e75b6, 0 0 48px #2e75b6, 0 0 64px #2e75b6, 0 0 80px #2e75b6;
+}
+
+.electric-effect {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #9c61b9,
+    0 0 70px #9c61b9, 0 0 80px #9c61b9, 0 0 100px #9c61b9, 0 0 150px #2e75b6;
+}
+
+.gold-rush {
+  color: #fff;
+  text-shadow: 0 0 10px #c7a252, 0 0 20px #c7a252, 0 0 30px #c7a252,
+    0 0 40px #b85c0f, 0 0 70px #b85c0f, 0 0 80px #b85c0f, 0 0 100px #b85c0f,
+    0 0 150px #2e75b6;
+}
+
+.deep-sea {
+  color: #fff;
+  text-shadow: 0 0 10px #9c61b9, 0 0 20px #2e75b6, 0 0 30px #2e75b6,
+    0 0 40px #113a5d, 0 0 70px #113a5d, 0 0 80px #113a5d, 0 0 100px #113a5d,
+    0 0 150px #113a5d;
+}
+
+.sunny-day {
+  color: #fff;
+  text-shadow: 0 0 10px #f3e26a, 0 0 20px #f3e26a, 0 0 30px #f3e26a,
+    0 0 40px #2e75b6, 0 0 70px #2e75b6, 0 0 80px #2e75b6, 0 0 100px #2e75b6,
+    0 0 150px #fff;
+}
+
 /* end common 🌝*/
 
 /* 🌞📱 common for mobile */
@@ -259,3 +307,31 @@
 }
 
 /* end about for mobile and md 📱🌝 */
+
+#next-releases .main-icon {
+  color: white;
+  font-size: 10rem;
+  text-align: center;
+}
+
+#next-releases .title-icon {
+  color: white;
+}
+
+#next-releases .title-icon {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  background-image: linear-gradient(to right, #9c61b9, #2e75b6);
+  padding-left: 0.5rem;
+}
+
+#next-releases .text-muted {
+  color: #b0cde7 !important;
+}
+
+#next-releases h5 {
+  white-space: nowrap;
+  color: ghostwhite;
+}

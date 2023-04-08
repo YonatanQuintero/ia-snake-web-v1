@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "flaticon_basic-straight-lineal";
+    src: url("./flaticon_basic-straight-lineal.ttf?217171c9e96d9bf15acfa70607fdb04f") format("truetype"),
+url("./flaticon_basic-straight-lineal.woff?217171c9e96d9bf15acfa70607fdb04f") format("woff"),
+url("./flaticon_basic-straight-lineal.woff2?217171c9e96d9bf15acfa70607fdb04f") format("woff2"),
+url("./flaticon_basic-straight-lineal.eot?217171c9e96d9bf15acfa70607fdb04f#iefix") format("embedded-opentype"),
+url("./flaticon_basic-straight-lineal.svg?217171c9e96d9bf15acfa70607fdb04f#flaticon_basic-straight-lineal") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_basic-straight-lineal !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-abstract:before {
+    content: "\f101";
+}
+.flaticon-credit-card:before {
+    content: "\f102";
+}
+.flaticon-business-and-finance:before {
+    content: "\f103";
+}
+.flaticon-store:before {
+    content: "\f104";
+}
+.flaticon-planet-earth:before {
+    content: "\f105";
+}
+.flaticon-shield:before {
+    content: "\f106";
+}
+.flaticon-connectivity:before {
+    content: "\f107";
+}
+.flaticon-check:before {
+    content: "\f108";
+}
+.flaticon-check-1:before {
+    content: "\f109";
+}
+.flaticon-planet-earth-1:before {
+    content: "\f10a";
+}
