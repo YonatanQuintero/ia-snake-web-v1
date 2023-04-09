@@ -75,6 +75,51 @@
   padding: 80px 0;
 }
 
+/* end common 🌝*/
+
+/* 🌞📱 common for mobile */
+
+@media screen and (max-width: 767px) {
+  .border-divider-black {
+    border-right: none;
+    border-bottom: 1px solid #212529;
+    border-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.075),
+        #212529,
+        rgba(0, 0, 0, 0.075)
+      )
+      1;
+  }
+}
+
+/* end common for mobile 📱🌝 */
+
+/* 🌞💻 start common for desktop */
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    height: 520px;
+  }
+
+  .card .card-img-top {
+    flex: 1 1 auto;
+    height: 100%;
+  }
+
+  .card .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* end common for desktop 💻🌝 */
+
+/* 🌞 start text shadows efects */
 .neon-effect {
   color: #fff;
   text-shadow: 0 0 10px #9c61b9, 0 0 20px #9c61b9, 0 0 30px #9c61b9,
@@ -123,49 +168,7 @@
     0 0 150px #fff;
 }
 
-/* end common 🌝*/
-
-/* 🌞📱 common for mobile */
-
-@media screen and (max-width: 767px) {
-  .border-divider-black {
-    border-right: none;
-    border-bottom: 1px solid #212529;
-    border-image: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.075),
-        #212529,
-        rgba(0, 0, 0, 0.075)
-      )
-      1;
-  }
-}
-
-/* end common for mobile 📱🌝 */
-
-/* 🌞💻 start common for desktop */
-
-@media screen and (min-width: 768px) {
-  .card {
-    display: flex;
-    height: 520px;
-  }
-
-  .card .card-img-top {
-    flex: 1 1 auto;
-    height: 100%;
-  }
-
-  .card .card-body {
-    flex: 1 1 auto;
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-/* end common for desktop 💻🌝 */
+/*  end text shadow efects 🌝*/
 
 /* 🌞 start home */
 
@@ -268,10 +271,6 @@
   background-size: cover;
 }
 
-#about-us {
-  padding: 80px 0;
-}
-
 #about-us h2 {
   font-size: 36px;
   font-weight: 600;
@@ -308,6 +307,8 @@
 
 /* end about for mobile and md 📱🌝 */
 
+/* 🌞 start next-releases */
+
 #next-releases .main-icon {
   color: white;
   font-size: 10rem;
@@ -335,3 +336,77 @@
   white-space: nowrap;
   color: ghostwhite;
 }
+
+/* end next-releases 🌝 */
+
+/* 🌞 start roadmap */
+
+#roadmap.bg {
+  background-image: url("../images/roadmap-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Style for the roadmap section */
+.roadmap {
+  margin-top: 50px;
+}
+
+#roadmap.container {
+  max-width: 800px;
+}
+
+.roadmap-number {
+  background-color: #000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.roadmap-line {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.075),
+    #212529,
+    rgba(0, 0, 0, 0.075)
+  );
+  width: 2px;
+  height: 110%;
+  margin: 0 auto;
+}
+
+/* @media (min-width: 768px) {
+  .roadmap-line {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .roadmap-number {
+    margin-right: 10px;
+  }
+} */
+
+#roadmap h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#roadmap .text-muted {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#roadmap p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* end roadmap 🌝 */
