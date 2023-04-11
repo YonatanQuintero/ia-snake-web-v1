@@ -2,11 +2,11 @@ $flaticon_basic-straight-lineal-font: "flaticon_basic-straight-lineal";
 
 @font-face {
     font-family: $flaticon_basic-straight-lineal-font;
-    src: url("./flaticon_basic-straight-lineal.ttf?217171c9e96d9bf15acfa70607fdb04f") format("truetype"),
-url("./flaticon_basic-straight-lineal.woff?217171c9e96d9bf15acfa70607fdb04f") format("woff"),
-url("./flaticon_basic-straight-lineal.woff2?217171c9e96d9bf15acfa70607fdb04f") format("woff2"),
-url("./flaticon_basic-straight-lineal.eot?217171c9e96d9bf15acfa70607fdb04f#iefix") format("embedded-opentype"),
-url("./flaticon_basic-straight-lineal.svg?217171c9e96d9bf15acfa70607fdb04f#flaticon_basic-straight-lineal") format("svg");
+    src: url("./flaticon_basic-straight-lineal.ttf?54a119514e46694eb081150ad5bed7c8") format("truetype"),
+url("./flaticon_basic-straight-lineal.woff?54a119514e46694eb081150ad5bed7c8") format("woff"),
+url("./flaticon_basic-straight-lineal.woff2?54a119514e46694eb081150ad5bed7c8") format("woff2"),
+url("./flaticon_basic-straight-lineal.eot?54a119514e46694eb081150ad5bed7c8#iefix") format("embedded-opentype"),
+url("./flaticon_basic-straight-lineal.svg?54a119514e46694eb081150ad5bed7c8#flaticon_basic-straight-lineal") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -31,6 +31,8 @@ $flaticon_basic-straight-lineal-map: (
     "check": "\f108",
     "check-1": "\f109",
     "planet-earth-1": "\f10a",
+    "goal": "\f10b",
+    "flag": "\f10c",
 );
 
 .flaticon-abstract:before {
@@ -62,4 +64,10 @@ $flaticon_basic-straight-lineal-map: (
 }
 .flaticon-planet-earth-1:before {
     content: map-get($flaticon_basic-straight-lineal-map, "planet-earth-1");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon_basic-straight-lineal-map, "goal");
+}
+.flaticon-flag:before {
+    content: map-get($flaticon_basic-straight-lineal-map, "flag");
 }

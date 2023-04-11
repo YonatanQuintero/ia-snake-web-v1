@@ -77,7 +77,7 @@
 
 /* end common 🌝*/
 
-/* 🌞📱 common for mobile */
+/* 🌞📱 common for mobile*/
 
 @media screen and (max-width: 767px) {
   .border-divider-black {
@@ -93,7 +93,7 @@
   }
 }
 
-/* end common for mobile 📱🌝 */
+/* end common for mobile  📱🌝 */
 
 /* 🌞💻 start common for desktop */
 
@@ -174,6 +174,7 @@
 
 #home {
   padding-top: 5rem !important;
+  position: relative;
 }
 #home .lottie-player-content {
   width: 480px;
@@ -199,7 +200,7 @@
   top: 0;
   left: 0;
   position: absolute;
-  width: 110%;
+  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,6 +360,11 @@
 
 .roadmap-number {
   background-color: #000;
+  background-image: linear-gradient(
+    to top,
+    rgb(156, 97, 185),
+    rgb(46, 117, 182)
+  );
   color: #fff;
   width: 40px;
   height: 40px;
@@ -366,31 +372,20 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  margin: 0 auto;
 }
 
 .roadmap-line {
   background-image: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.075),
-    #212529,
-    rgba(0, 0, 0, 0.075)
+    rgba(46, 117, 182, 0.075),
+    rgb(156, 97, 185),
+    rgba(46, 117, 182, 0.5)
   );
   width: 2px;
   height: 110%;
   margin: 0 auto;
 }
-
-/* @media (min-width: 768px) {
-  .roadmap-line {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 767px) {
-  .roadmap-number {
-    margin-right: 10px;
-  }
-} */
 
 #roadmap h3 {
   font-size: 24px;
@@ -407,6 +402,26 @@
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
+}
+
+#roadmap .bg-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #fff;
+  /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); */
+  /* background-color: #000;*/
+  background-image: linear-gradient(
+    to top,
+    rgb(156, 97, 185),
+    rgb(46, 117, 182)
+  );
 }
 
 /* end roadmap 🌝 */
