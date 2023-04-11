@@ -425,3 +425,30 @@
 }
 
 /* end roadmap 🌝 */
+
+/* 🌞 footer section */
+footer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: rgb(156, 97, 185) !important;
+}
+
+footer .social-media a {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+footer .social-media a i {
+  font-size: 38px;
+}
+
+footer .social-media .bg-dark {
+  background-color: #000000 !important;
+}
+/* footer section 🌝 */
