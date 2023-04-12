@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="vendor/aos/aos.css" />
     <link rel="stylesheet" href="vendor/animate/animate.css" />
+    <link rel="stylesheet" href="vendor/freakflags/freakflags.css" />
     <link
       rel="stylesheet"
       href="assets/icon-fonts/flaticon_basic-straight-lineal/flaticon_basic-straight-lineal.css"
@@ -503,11 +504,11 @@
     </section>
 
     <!--footer-->
-    <footer class="bg-dark py-4">
+    <footer class="bg-dark py-5">
       <div class="container">
         <div class="row justify-content-center align-items-center my-5">
           <!-- logo -->
-          <div class="col-12 text-center my-4">
+          <div class="col-12 text-center my-4" data-aos="zoom-in">
             <img
               src="assets/images/trend.svg"
               alt="logo"
@@ -519,15 +520,23 @@
           </div>
           <!-- social media -->
           <div class="col-12 text-center my-4 social-media">
-            <a href="#" class="rounded-circle d-inline-block p-3 bg-dark me-3">
+            <a
+              href="#"
+              class="rounded-circle d-inline-block p-3 bg-dark me-3"
+              data-aos="fade-up"
+            >
               <i class="fi fi-brands-telegram text-light"></i>
             </a>
-            <a href="#" class="rounded-circle d-inline-block p-3 bg-dark me-3">
+            <a
+              href="#"
+              class="rounded-circle d-inline-block p-3 bg-dark me-3"
+              data-aos="fade-up"
+            >
               <i class="fi fi-brands-twitter text-light"></i>
             </a>
           </div>
           <!-- links -->
-          <div class="col-12 text-center my-4">
+          <div class="col-12 text-center my-4" data-aos="fade-up">
             <a href="#home" class="text-light me-3">Home</a>
             <a href="#portfolio" class="text-light me-3">Portfolio</a>
             <a href="#about-us" class="text-light me-3">About us</a>
@@ -539,13 +548,37 @@
           </div>
         </div>
       </div>
+      <div class="container-fluid">
+        <div class="row g-0 border-top mt-4 pt-3" data-aos="zoom-in">
+          <!-- text -->
+          <div class="col-sm-12 col-md-7">
+            <p class="text-light">
+              Copyright © 2010-<span id="footer-year"></span>
+              <script>
+                document.getElementById("footer-year").innerText =
+                  new Date().getFullYear()
+              </script>
+              AI Snake Web All rights reserved.
+            </p>
+          </div>
+          <!-- languages -->
+          <div class="col-sm-12 col-md-5 text-end mb-5">
+            <i class="fflag fflag-US ff-round ff-xl me-3" title="English"></i>
+            <i class="fflag fflag-MX ff-round ff-xl me-3" title="Spanish"></i>
+            <i
+              class="fflag fflag-BR ff-round ff-xl me-3"
+              title="Portuguese"
+            ></i>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/lottie/lottie-player.js"></script>
     <script src="vendor/aos/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init()
     </script>
   </body>
 </html>
